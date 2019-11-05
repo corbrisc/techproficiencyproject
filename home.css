@@ -1,0 +1,67 @@
+html, body {
+	padding: 0;
+	margin: 0;
+	color: rgba(112, 101, 99, 1.0);
+	background-color: rgba(255, 248, 244, 1.0);
+}
+
+.header{
+    width: 100%;
+    height: 300px;
+}
+
+.image{
+    width: 100%;
+    height: 100%;
+}
+
+.icon1 {
+    height:50px;
+    width: auto;
+    float: left;
+    padding-left: 400px;
+}
+
+.icon2 {
+    height:50px;
+    width: auto;
+    float: right;
+    padding-right: 400px;
+}
+
+.footer{
+    background-image: url('images/flowerPower.jpg');
+    width: 100%;
+    height: 200px;
+}
+
+/* This is the header area */
+
+/* Add a background color to the top navigation */
+.topnav {
+    overflow: hidden;
+    justify-content: center;
+    padding-left: 80px;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color:#9A8C52;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    color: #9A8C52;
+    background-color: antiquewhite;
+  }

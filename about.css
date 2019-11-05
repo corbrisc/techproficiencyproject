@@ -45,30 +45,30 @@ html, body {
 /* This is the header area */
 
 /* Add a black background color to the top navigation */
-.topnav {
-    overflow: hidden;
-    justify-content: center;
-    padding-left: 80px;
-  }
-  
-  /* Style the links inside the navigation bar */
-  .topnav a {
-    float: left;
-    color:#9A8C52;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  /* Change the color of links on hover */
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  /* Add a color to the active/current link */
-  .topnav a.active {
-    color: #9A8C52;
-    background-color: antiquewhite;
-  }
+nav {
+  overflow: hidden;
+  justify-content: center;
+  padding-left: 80px;
+}
+
+/* Style the links inside the navigation bar */
+nav a {
+  float: left;
+  color:#9A8C52;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+nav a.active {
+  color: #9A8C52;
+  background-color: antiquewhite;
+}

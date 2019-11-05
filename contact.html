@@ -10,6 +10,7 @@
 <body class = "contactPage">
 	<div class = "contactTable">
 		<div class = "lefthandContact">
+			<div class = "graybox-right"></div>
 			<div class = "contactContent">
 				<h2>Contact Us</h2>
 				<img src = "images/squiggle.png" alt = "" class = "squiggle" width = "600px" height = "50px"/>
@@ -20,9 +21,9 @@
 				<h5>Phone Number</h5>
 				<p>812-219-6446</p>
 			</div>
-			<div class = "graybox-right"></div>
 		</div>
 		<div class = "righthandContact">
+			<div class = "graybox-right"></div>
 			<div  class = "contactContent">
 				<h4>Please contact us with questions and pricing information!</h4>
 				<form>
@@ -31,12 +32,19 @@
 					<input type = "text" name = "lastname" placeholder = "Last" /> <br />
 					<p>Email Address:</p>
 					<input type = "email" name = "emailaddress" placeholder = "janedoe@email.com" /><br />
-					<p>Comment:</p>
-					<input type = "text" name = "comment" placeholder = "Your comment..." /><br />
+					<p>Message:</p>
+					<textarea placeholder="Message" onkeyup="adjust_textarea(this)"></textarea> <br /><br />
+					<input type = "submit" class = "btn"/>
 				</form>
 			</div>
-			<div class = "graybox-right"></div>
 		</div>
 	</div>
+
+	<script>
+		function adjust_textarea(h) {
+    		h.style.height = "20px";
+    		h.style.height = (h.scrollHeight)+"px";
+		}
+	</script>
 </body>
 </html>

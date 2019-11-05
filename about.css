@@ -12,23 +12,63 @@ html, body {
     grid-gap: 5px;
 }
 
-.tl{
-    
+.header{
+    width: 100%;
+    height: 300px;
 }
 
-.tm{
-    
+.image{
+    width: auto;
+    height: 80%;
 }
 
-.tr{
-    
+.icon1 {
+    height:50px;
+    width: auto;
+    float: left;
+    padding-left: 400px;
 }
 
-.bl {
-
+.icon2 {
+    height:50px;
+    width: auto;
+    float: right;
+    padding-right: 400px;
 }
 
-.bm {
-    
+.footer{
+    background-image: url('images/flowerPower.jpg');
+    width: 100%;
+    height: 200px;
 }
 
+/* This is the header area */
+
+/* Add a black background color to the top navigation */
+.topnav {
+    overflow: hidden;
+    justify-content: center;
+    padding-left: 80px;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color:#9A8C52;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    color: #9A8C52;
+    background-color: antiquewhite;
+  }

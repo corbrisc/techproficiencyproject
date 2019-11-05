@@ -1,0 +1,133 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body {
+	
+	padding: 0;
+	margin: 0;
+	
+	
+	color: rgba(112, 101, 99, 1.0);
+	background-color: rgba(255, 248, 244, 1.0);
+}
+
+img {
+	width: 319px;
+	height: 164px;
+	max-width: 100%;
+	object-fit: cover;
+	margin: 0 auto;
+	
+	display: block;
+	
+}
+
+table {
+	margin: 0px 40px;
+}
+
+td {
+	width: 23%;
+	text-align: center;
+	margin: 0px 10px;
+	padding: 5px 10px;
+	border: 2px solid black;
+}
+
+h2 {
+	font-family: "Pinyon Script", "alex-brush", "Arial", Arial, serif;
+	font-weight: normal;
+	font-size: 50pt;
+	margin-bottom: 0;
+}
+
+h5 {
+	font-family: 'Glacial Indifference', sans-serif;
+	font-weight: bold;
+	font-size: 13pt;
+	margin: 10px;
+}
+
+p {
+	font-family: 'Glacial Indifference', sans-serif;
+	font-size: 13pt;
+	padding: 0px 0px;
+	line-height: 1.4;
+	max-width: 100%;
+	letter-spacing: .01vw;
+}
+
+.servicesTable {
+	display: flex;
+	justify-content: center;
+	width: auto;
+}
+
+.tableItem {
+	float: left;
+	width: 23%;
+	text-align: center;
+	margin: 0px 10px;
+	padding: 5px 10px;
+	align-items: center;
+	/* border: 2px solid black; */
+}
+
+.imgStack {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+
+.graybox {
+	margin: 0 auto;
+	background-color: rgba(112, 101, 99, 1.0);
+	display: block;
+	width: 319px;
+	height: 23px;
+	max-width: 100%;
+}
+
+.squiggle {
+	margin-top: -30px;
+	/*width: 600px;
+	height: 100px; */
+	object-fit: contain;
+	/*background-color: rgba(112, 101, 99, 1.0); */
+}
+
+.title {
+	text-align: center;
+}
+
+/* ---------------- */
+.contactPage {
+	background-image: url("contact.jpg");
+	background-size: cover;
+}
+
+.contactTable {
+	display: flex;
+	justify-content: center;
+	width: auto;
+}
+
+.lefthandContact, .righthandContact {
+	background-color: rgba(255, 248, 244, .7);
+	width: 35%;
+	float: left;
+}
+
+.righthandContact {
+	
+}
+
+.contactContent {
+	text-align: right;
+	margin: 15px;
+}
+
+.graybox-right {
+	
+}
